@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0c20a94-28f8-41f0-bc42-ad0d5348163f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MainFrame1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainFrame1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577447501554</updated>
       <workItem from="1577447504712" duration="60000" />
-      <workItem from="1577447599130" duration="692000" />
+      <workItem from="1577447599130" duration="892000" />
     </task>
     <servers />
   </component>
