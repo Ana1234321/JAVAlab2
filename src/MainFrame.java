@@ -251,3 +251,36 @@ public class MainFrame extends JFrame {
                 }
             }
         });
+        memoryTextField = new JTextField("0.0", 15);
+        memoryTextField.setMaximumSize(memoryTextField.getPreferredSize());
+
+        memory_result.add(MC);
+        memory_result.add(Box.createHorizontalStrut(10));
+        memory_result.add(memoryTextField);
+        memory_result.add(Box.createHorizontalStrut(10));
+        memory_result.add(M_plus);
+        memory_result.add(Box.createHorizontalGlue());
+
+
+        Box contentBox = Box.createVerticalBox();
+        contentBox.add(Box.createVerticalGlue());
+        contentBox.add(picture);
+        contentBox.add(Box.createVerticalGlue());
+        contentBox.add(formula_type);
+        contentBox.add(Box.createVerticalGlue());
+        contentBox.add(data);
+        contentBox.add(Box.createVerticalGlue());
+        contentBox.add(result_area);
+        contentBox.add(Box.createVerticalGlue());
+        contentBox.add(actions);
+        contentBox.add(Box.createVerticalGlue());
+        contentBox.add(hBoxMemoryType);
+        contentBox.add(Box.createVerticalGlue());
+        contentBox.add(memory_result);
+
+
+        getContentPane().add(contentBox, BorderLayout.CENTER);
+
+
+    }
+}
